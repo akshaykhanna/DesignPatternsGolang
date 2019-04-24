@@ -13,23 +13,19 @@ type vehicle interface {
 
 type fourWheeler struct {
 }
-
 func (fw fourWheeler) printVehicle() {
 	fmt.Println("I am four wheeeler")
 }
 
 type twoWheeler struct {
 }
-
 func (tw twoWheeler) printVehicle() {
 	fmt.Println("I am two wheeler")
 }
 
-// creating class is optional, instead can use factory methods
-// Either this
+// Either this, i.e. using class factory
 type vehicleFactory struct {
 }
-
 func (vf vehicleFactory) NewVehicle(typeOfVehicle string) vehicle {
 	if typeOfVehicle == TWO_WHEELER {
 		return &twoWheeler{}
@@ -40,7 +36,7 @@ func (vf vehicleFactory) NewVehicle(typeOfVehicle string) vehicle {
 	}
 }
 
-// or this, i.e. factory method
+// or this, i.e. using factory method
 func CreateVeichle(typeOfVehicle string) vehicle {
 	if typeOfVehicle == TWO_WHEELER {
 		return &twoWheeler{}
