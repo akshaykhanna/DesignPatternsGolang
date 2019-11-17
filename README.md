@@ -1,14 +1,13 @@
 # Design Patterns - The Golang Way
 
-## What
+## What ?
 Implementing multiple software design patterns using any conventional language and Golang
 
-## Who (Benefical for whom)
+## Who ? (Benefical for whom)
 - Those who want to learn design pattrens
 - Golang noobs & ninjas
-- Seeking transfer of understanding across languages
 
-## How (to contribute)
+## How ? (to contribute)
 Implement desgin pattren:
 - In any language which supports OOPS (Prefeable Java/C#)
 - Using Golang
