@@ -13,11 +13,11 @@ Implement desgin pattren:
 - Using Golang
 ### Folder structure
 - **Folder Name**:<designPattrenName>
-  - **File1**:<implementaionInAnyLang.langExt>
-  - **File2**:<implementaionInGoLang.go>
+  - **File1**: <implementaionInAnyLang.langExt>
+  - **File2**: <implementaionInGoLang.go>
   
 ## Contribution so far
 - Factory Pattren
 
-## Message to contributor
+## Message to contributors
 Please update contribution part in readme after each contribution
