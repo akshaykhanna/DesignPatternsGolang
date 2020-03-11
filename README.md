@@ -11,13 +11,10 @@ Implementing multiple software design patterns using any conventional language a
 Implement desgin pattren:
 - In any language which supports OOPS (Prefeable Java/C#)
 - Using Golang
-### Folder structure
-- **Folder Name**:<designPattrenName>
-  - **File1**: <implementaionInAnyLang.langExt>
-  - **File2**: <implementaionInGoLang.go>
   
 ## Contribution so far
-- Factory Pattren
+- Factory Pattern
+- Strategy Pattern (Java)
 
 ## Message to contributors
 Please update contribution part in readme after each contribution
