@@ -1,3 +1,5 @@
+package StrategyPattern;
+
 public class SaysPichku implements SpeakBehaviour {
     @Override
     public String canSpeak() {

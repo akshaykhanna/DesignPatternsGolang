@@ -1,3 +1,5 @@
+package StrategyPattern;
+
 public class CantFly implements FlyBehaviour {
     @Override
     public String canFly() {

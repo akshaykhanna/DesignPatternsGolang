@@ -1,3 +1,5 @@
+package StrategyPattern;
+
 public class Duck {
     FlyBehaviour flyBehaviour;
     SpeakBehaviour speakBehaviour;
@@ -10,11 +12,11 @@ public class Duck {
         this.speakBehaviour = speakBehaviour;
     }
 
-    void tryToFly() {
+    public void tryToFly() {
         System.out.println(this.flyBehaviour.canFly());
     }
 
-    void tryToSpeak() {
+    public void tryToSpeak() {
         System.out.println(this.speakBehaviour.canSpeak());
     }
 

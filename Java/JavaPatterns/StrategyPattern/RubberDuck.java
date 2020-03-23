@@ -1,3 +1,5 @@
+package StrategyPattern;
+
 public class RubberDuck extends Duck {
     public RubberDuck() {
         System.out.println("I am rubber duck");

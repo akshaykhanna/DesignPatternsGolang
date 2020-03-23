@@ -15,6 +15,7 @@ Implement desgin pattren:
 ## Contribution so far
 - Factory Pattern
 - Strategy Pattern (Java)
+- Observer Pattern (Java)
 
 ## Message to contributors
 Please update contribution part in readme after each contribution
